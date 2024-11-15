@@ -4,33 +4,33 @@
 ```mermaid
 classDiagram
   class User {
-    name: String
-    account: Account
-    features: List<Feature>
-    card: Card
-    news: List<News>
+   - name: String
+   - account: Account
+   - features: List<Feature>
+   - card: Card
+   - news: List<News>
   }
 
   class Account {
-    number: String
-    agency: String
-    balance: Number
-    limit: Number
+   - number: String
+   - agency: String
+   - balance: Number
+   - limit: Number
   }
 
   class Feature {
-    icon: String
-    description: String
+   - icon: String
+   - description: String
   }
 
   class Card {
-    number: String
-    limit: Number
+   - number: String
+   - limit: Number
   }
 
   class News {
-    icon: String
-    description: String
+   - icon: String
+   - description: String
   }
 
   User "1" -- "1" Account
