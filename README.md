@@ -15,6 +15,7 @@ classDiagram
     number: String
     agency: String
     balance: Number
+    limit: Number
   }
 
   class Feature {
